@@ -1,0 +1,8 @@
+
+I'm not a fan of having to do constant maintenance upgrades, when using something like Wordpress, to keep my site from being hacked.
+
+I could host this blog on [TypePad](http://www.typepad.com/), [Posterous](http://www.posterous.com/), or [Tumblr](http://www.tumblr.com/).  However, there are a few downsides to using a blog hosting company: The blog must be on another subdomain (blog.example.com) and styling the blog using the built in template language sucks. 
+
+The basic functionality is that you write up the blog in [Markdown syntax](http://daringfireball.net/projects/markdown/) and then it generates static html files from the php that can be uploaded to a server.
+
+Visit my [Amazon S3 Static Site Baker for PHP](https://github.com/alc277/Amazon-S3-Static-Site-Baker-for-PHP) project on GitHub.

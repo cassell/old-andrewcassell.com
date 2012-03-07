@@ -1,0 +1,55 @@
+.noprint { display: none; }
+
+.printOnly { display:block;	}
+
+
+#left { display: none; }
+
+.blogLinks { display: none; }
+
+#blogSubscribe { display: none; }
+
+#right
+{
+	float:left;
+	padding-top: 0;
+	width: auto;
+	margin-left: 0;
+	padding-bottom: 0;
+}
+
+.content
+{
+	border: 0px;
+	box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    background: url("/img/background_light.jpg") #fff;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.blog h1 a
+{
+	text-decoration:none;
+	color: #000;
+	font-spacing: -2px;
+	font-weight: bold;
+}
+
+.printHeader
+{
+	text-align:left;
+	font-size: 16px;
+	padding: 10px 20px;
+}
+
+.printHeaderName
+{
+	font-size: 24px;	
+}
+
+a
+{
+	color: #000;
+}

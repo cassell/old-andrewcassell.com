@@ -1,0 +1,6 @@
+I've open sourced this entire site. You can see the source on GitHub.
+
+[https://github.com/cassell/andrewcassell.com](https://github.com/cassell/andrewcassell.com)
+
+I use it conjunction with another project of mine [Amazon S3 Static Site Baker for PHP](https://github.com/cassell/Amazon-S3-Static-Site-Baker-for-PHP)
+to host this entire site on S3 for a few pennies a month.

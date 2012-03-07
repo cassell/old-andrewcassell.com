@@ -1,0 +1,10 @@
+You can now host an entire website on Amazon S3.
+
+I wrote a publishing script that generates static .html files from PHP files and then uploads those to Amazon S3. 
+
+Hosting .html files (instead of PHP, Perl, Python, Ruby, etc. connected to a database backend) means your hosting options are practically limitless, hosting is nearly free for sites that generate small quantities of traffic (this site costs me about 2 cents a month),  and sites that generate a lot of traffic can scale almost infinitely.
+
+Visit my [Amazon S3 Static Site Baker for PHP](https://github.com/cassell/Amazon-S3-Static-Site-Baker-for-PHP) project on GitHub.
+
+See this blog entry on the Amazon Web Services Blog for more information on storing HTML files on Amazon S3.
+[Host Your Static Website on Amazon S3](http://aws.typepad.com/aws/2011/02/host-your-static-website-on-amazon-s3.html)

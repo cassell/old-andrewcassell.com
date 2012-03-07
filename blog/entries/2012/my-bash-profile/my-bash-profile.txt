@@ -1,0 +1,4 @@
+
+Here a coupe of snippets of helpful things I have in my bash profile:
+
+<script src="https://gist.github.com/1903447.js"> </script>

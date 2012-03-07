@@ -1,0 +1,14 @@
+I use a Mac and switch monitor configurations multiple times a day (I'm either using just my laptop display, or using my huge monitor + laptop display). 
+I typically use a couple of different window configurations (Safari, Vim, Eclipse, Xcode, Terminal, etc.) but it's different depending on
+whether my laptop is connected to my external monitor.
+ 
+So I wrote a couple of Apple Scripts that automatically position my windows on my screen based on the coordinates provided. Here's an example of it running as a published app
+on my laptop. I just go down to my dock and click on the app and presto my windows are arranged. 
+
+<video class="videoContent" controls="" style="border:1px solid black">
+<source src="http://static.andrewcassell.com/blog/2012/remember-mac-window-positions/remember-mac-window-positions.mp4" type="video/mp4">
+<source src="http://static.andrewcassell.com/blog/2012/remember-mac-window-positions/remember-mac-window-positions.webm" type="video/webm">
+<source src="http://static.andrewcassell.com/blog/2012/remember-mac-window-positions/remember-mac-window-positions.ogg" type="video/ogg">
+/video>
+
+I've put a couple of examples on GitHub: [https://github.com/cassell/Mac-Window-Posititioner](https://github.com/cassell/Mac-Window-Posititioner)

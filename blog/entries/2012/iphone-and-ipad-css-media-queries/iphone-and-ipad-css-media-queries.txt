@@ -1,0 +1,4 @@
+
+Here are the iPhone and iPad media queries for using different CSS files depending on which device connects.
+
+<script src="https://gist.github.com/1622270.js"> </script>

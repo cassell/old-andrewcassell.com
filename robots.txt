@@ -1,0 +1,10 @@
+User-agent: alcohol
+Disallow: /miller-lite/
+Disallow: /bud-lite/
+Allow: /franziskaner/
+
+User-agent: programming
+Disallow: /asp-dot-net/
+
+User-agent: *
+Allow: /
