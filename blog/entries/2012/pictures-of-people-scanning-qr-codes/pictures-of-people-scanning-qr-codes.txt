@@ -1,0 +1,11 @@
+2D Barcodes are incredibly useful. QR codes used in marketing purposes are an entirely different story.
+
+Recently [Artur Kim](http://arturkim.com/) created a Tumblr blog entitled ['Pictures of People Scanning QR-codes'](http://picturesofpeoplescanningqrcodes.tumblr.com/).
+
+It's very apt.
+
+It is in the spirit of his blog that I am providing you a QR code that will take you to that page:
+
+![Pictures of People Scanning QR-codes](http://static.andrewcassell.com/blog/2012/pictures-of-people-scanning-qr-codes/pictures-of-people-scanning-qr-codes-qr-code.png "Pictures of People Scanning QR-codes")
+
+The internet will not have justice until someone sends me a picutre of them taking a picture of this QR code.

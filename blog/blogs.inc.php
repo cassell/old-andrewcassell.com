@@ -19,6 +19,13 @@ $blog->setBlogBaseURL('http://www.andrewcassell.com/blog/');
 
 $a = new StaticSiteBlogArticle();
 $a->setDate("02/27/2012");
+$a->setDestinationUrl("2012/pictures-of-people-scanning-qr-codes");
+$a->setTitle("QR Code for Pictures of People Scanning QR Codes");
+$a->setMarkdownSource($d."2012/pictures-of-people-scanning-qr-codes/pictures-of-people-scanning-qr-codes.txt");
+$blog->addArticle($a);
+
+$a = new StaticSiteBlogArticle();
+$a->setDate("02/27/2012");
 $a->setDestinationUrl("2012/my-bash-profile");
 $a->setTitle("My Bash Profile");
 $a->setMarkdownSource($d."2012/my-bash-profile/my-bash-profile.txt");
