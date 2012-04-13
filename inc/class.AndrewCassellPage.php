@@ -55,11 +55,10 @@ class AndrewCassellPage extends HTMLPage
 				
 				//$menu[self::MENU_ABOUT] = array("url" => "/", "alt" => "About" , "img" => "about");
 				$menu[self::MENU_BLOG] = array("url" => $this->getLinkUrl("/blog/"), "text" => "Blog" );
+				$menu[self::MENU_GITHUB] = array("url" => "http://www.github.com/cassell", "text" => "GitHub" , "img" => "github");
 				$menu[self::MENU_TWITTER] = array("url" => "http://www.twitter.com/alc277", "text" => "Twitter" , "img" => "twitter");
 				$menu[self::MENU_FACEBOOK] = array("url" => "http://www.facebook.com/andrewcassell", "text" => "Facebook" , "img" => "facebook");
 				$menu[self::MENU_SWEET_RADISH] = array("url" => "http://www.sweetradish.com", "text" => "SweetRadish" , "img" => "sweetradish");
-				$menu[self::MENU_FORTASK] = array("url" => "http://www.fortask.com", "text" => "For(task)" , "img" => "fortask");
-				$menu[self::MENU_GITHUB] = array("url" => "http://www.github.com/cassell", "text" => "GitHub" , "img" => "github");
 				
 				
 				echo '<ul id="menu">';
