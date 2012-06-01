@@ -47,9 +47,9 @@ class AndrewCassellPage extends HTMLPage
 		
 			echo '<div id="left">';
 		
-				echo '<div id="signature"><a href="/"><img alt="Signature of Andrew Cassell" src="' . $this->wrapImageS3('/img/signature_left.png') . '"/></a></div>';
+				echo '<div id="signature"><a href="/">Andrew Cassell</a></div>';
 				echo '<div id="signatureLine"></div>';
-				echo '<div id="tagline">Web Application Developer</div>';
+				echo '<div id="tagline">Web Application Developer<div>Herndon, Virginia</div></div>';
 				
 				$menu = array();
 				
@@ -59,7 +59,6 @@ class AndrewCassellPage extends HTMLPage
 				$menu[self::MENU_TWITTER] = array("url" => "http://www.twitter.com/alc277", "text" => "Twitter" , "img" => "twitter");
 				$menu[self::MENU_FACEBOOK] = array("url" => "http://www.facebook.com/andrewcassell", "text" => "Facebook" , "img" => "facebook");
 				$menu[self::MENU_SWEET_RADISH] = array("url" => "http://www.sweetradish.com", "text" => "SweetRadish" , "img" => "sweetradish");
-				
 				
 				echo '<ul id="menu">';
 				

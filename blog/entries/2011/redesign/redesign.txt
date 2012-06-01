@@ -1,1 +1,0 @@
-I have redesigned my site with a greatly simplified layout.  My main goal was to make it easy to plug in a new static blogging engine I was in the process of writing.  I initially wanted to go without a menu but realized I needed some way of navigating from the blog (where most people are probably going to land) to the “About”, Twitter, and Facebook links.

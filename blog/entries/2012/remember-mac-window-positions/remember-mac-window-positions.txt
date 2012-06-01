@@ -9,6 +9,6 @@ on my laptop. I just go down to my dock and click on the app and presto my windo
 <source src="http://static.andrewcassell.com/blog/2012/remember-mac-window-positions/remember-mac-window-positions.mp4" type="video/mp4">
 <source src="http://static.andrewcassell.com/blog/2012/remember-mac-window-positions/remember-mac-window-positions.webm" type="video/webm">
 <source src="http://static.andrewcassell.com/blog/2012/remember-mac-window-positions/remember-mac-window-positions.ogg" type="video/ogg">
-/video>
+</video>
 
 I've put a couple of examples on GitHub: [https://github.com/cassell/Mac-Window-Posititioner](https://github.com/cassell/Mac-Window-Posititioner)

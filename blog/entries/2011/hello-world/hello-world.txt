@@ -1,18 +1,14 @@
 <pre>
-10 PRINT “HELLO WORLD!”
+10 PRINT "HELLO WORLD!"
 20 GOTO 10
 </pre>
 
-<br markdown=”1”>
+<br markdown="1">
 
-A [hello world]( http://en.wikipedia.org/wiki/Hello_world) program is usually the first program a developer makes when either learning to program or testing out a new language or framework.  I have been playing with computers since I was 3 and developing software since I was 6 so I’ve written many Hello World programs over the years that I’m not going to try and recount count them. 
+A [hello world]( http://en.wikipedia.org/wiki/Hello_world) program is usually the first program a developer makes when either first learning to program or testing out a new language or framework. This is my "Hello World" blog post because it is the first entry in my new blog. 
 
-This is my “Hello World” blog post because it is the first entry in my new blog. As a Web Application Developer, consultant, and serial “Wannapreneur” (repeatedly failed entrepreneur) this first post is guaranteed not be the last, first blog post I write.
+I amm a Web Application Developer living in Herndon, Virginia whose primary focus is front-end development and user experience.  I'm an experienced JavaScript developer and hold my own on the backend in many different languages such as PHP, Ruby, .NET, Python, and JavaScript (Node.js). I have experience using SQL and NoSQL databases.
 
-I’m a Web Application Developer living in Herndon, Virginia whose primary focus is front end development and user experience.  I’m an experienced JavaScript developer and work with the [Mootools](http://www.mootools.net) and [jQuery](http://www.jquery.com) libraries. I hold my own on the backend in many different languages such as PHP, Ruby, .NET, and Python and I have experience using SQL and NoSQL databases.
-
-I'm a graduate of [The Pennsylvania State University](http://www.psu.edu) with a degree in [Computer Engineering](http://www.cse.psu.edu). At Penn State I developed energy monitoring hardware and software, a website, and communications materials for a [solar powered home](http://solar.psu.edu/2007/default.aspx?lang=en). I gained experience in the manufacturing industry doing robotics PLC programming and manufacturing data processing on two separate 9 month Co-Ops with [R.A. Jones](http://www.rajones.com) and [Sony](http://www.sony.com).
-
-Now I work full time for a non-profit environmental company as an internal software developer. I also moonlight as a consultant at [SweetRadish](http://www.sweetradish.com).
+I'm a graduate of [The Pennsylvania State University](http://www.psu.edu) with a degree in [Computer Engineering](http://www.cse.psu.edu). At Penn State I developed household energy monitoring hardware and software, a website, and communications materials for a [solar powered home](http://solar.psu.edu/2007/default.aspx?lang=en). I gained experience in the manufacturing industry doing robotics PLC programming, manufacturing data processing, and software development on two separate 9 month Co-Ops with [R.A. Jones](http://www.rajones.com) and [Sony](http://www.sony.com).
 
 Woot! First Post! (Obligatory)

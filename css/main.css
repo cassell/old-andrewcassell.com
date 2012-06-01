@@ -40,7 +40,7 @@ html
 
 body
 {
-	background: url("/img/background.jpg") #333;
+	background: #f5f5f5;
 	font-family: 'Josefin Sans', 'Helvetica', 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;	
 }
 
@@ -73,30 +73,44 @@ p
 	padding-top: 40px;
 	margin-top: 50px;
 	height: 100%;
-	border-right: 1px solid #555;
 }
 
 	#signature
 	{
 		text-align: right;
 		margin-top: 20px;
-		padding-right: 60px;
+		padding-right: 40px;
+		font-size: 40px;
+	}
+	
+	#signature a
+	{
+		text-decoration: none;
+		color: #368DAB;
+		font-weight: 600;
 	}
 
 	#signatureLine
 	{
-		border-bottom: 2px solid #99CDDF;
+		border-bottom: 1px solid #99CDDF;
 		margin: 14px 0px 4px 0px;
 		padding-right: 40px;
 	}
 	
 	#tagline
 	{
+		font-weight: 500;
 		font-size: 24px;
-		color: #999;
+		color: #777;
 		margin: 10px 0px;
 		text-align: right;
-		padding-right: 50px;
+		padding-right: 40px;
+	}
+	
+	#tagline div
+	{
+		font-weight: 500;
+		color: #999;
 	}
 	
 	#menu
@@ -109,7 +123,7 @@ p
 		text-align:right;
 		margin-top: 10px;
 		font-size: 40px;
-		border-bottom: 1px solid #555;
+		border-bottom: 1px solid #99CDDF;
 		padding: 6px 40px 6px 0px;
 		margin-left: 40px;
 	}
@@ -122,14 +136,14 @@ p
 	
 	#menu li a
 	{
-		color: #99CDDF;
+		color: #368DAB;
 		text-decoration: none;
 		padding: 8px;
 	}
 	
 	#menu li a:hover
 	{
-		color: #C1E1EB;
+		color: #99CDDF;
 	}
 	
 
@@ -145,10 +159,6 @@ p
 .content
 {
 	border: 1px solid #99CDDF;
-	box-shadow: 1px 0px 6px #000;
-    -moz-box-shadow: 1px 0px 6px #000;
-    -webkit-box-shadow: 1px 0px 6px #000;
-    background: url("/img/background_light.jpg") #fff;
     padding: 10px 20px;
 }
 
@@ -253,6 +263,14 @@ p
 		width: 48%;
 	}
 	
+	.blogLinks #previous:hover
+	{
+		color: #368DAB;
+		text-decoration: underline;
+	}
+	
+	
+	
 	#blogSubscribe
 	{
 		padding-top: 20px;
@@ -268,7 +286,9 @@ p
 		
 	}
 	
+	#blogSubscribe a:hover
+	{
+		color: #368DAB;
+	}
 	
-
-
 	
