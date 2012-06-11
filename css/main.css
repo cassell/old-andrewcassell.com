@@ -190,14 +190,15 @@ p
 /*** blog ***/
 .blog
 {
+	background: #fff;
 	padding: 10px 30px 50px 30px;
+	font-family: Helvetica Neue, Helvetica, Lucida Grande, Arial;
 }
 
 	.blog .blogContent
 	{
 		margin-top: 30px;
 		font-size: 20px;
-		font-family: 'Josefin Sans', 'Helvetica', 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
 		line-height: 25px;
 	}
 

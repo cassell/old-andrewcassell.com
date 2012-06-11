@@ -18,6 +18,13 @@ $blog->setBlogBaseURL('http://www.andrewcassell.com/blog/');
 // place newest entires at the top
 
 $a = new StaticSiteBlogArticle();
+$a->setDate("06/11/2012");
+$a->setDestinationUrl("2012/sqlicious-php-orm-mysql-closure-database-processor-open-source");
+$a->setTitle("SQLicious is an Open Source PHP ORM and Closure Based Database Proccessor and Abstraction layer for MySQL");
+$a->setMarkdownSource($d."2012/sqlicious/sqlicious.md");
+$blog->addArticle($a);
+
+$a = new StaticSiteBlogArticle();
 $a->setDate("02/27/2012");
 $a->setDestinationUrl("2012/pictures-of-people-scanning-qr-codes");
 $a->setTitle("QR Code for Pictures of People Scanning QR Codes");
