@@ -1,0 +1,32 @@
+
+#background
+{
+	display: none;
+}
+
+body
+{
+	background-image: none;
+	background: #333;
+}
+
+#stripe
+{
+	display: none;
+}
+
+
+#name-menu
+{
+	position: absolute;
+	top: 40px;
+	left: 50px;
+	margin: 0;
+	width: 300px;
+	float: none;
+}
+
+.navbar .navbar-inner
+{
+	padding: 20px;
+}

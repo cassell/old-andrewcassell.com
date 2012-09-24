@@ -21,6 +21,21 @@ $page->open();
 		<li><a href="http://www.sweetradish.com">SweetRadish</a></li>
 	</ul>
 </div>
+<script>
+setInterval(function()
+{
+	var offsets = $("#name-menu").offset();
+	
+	console.log(offsets.top);
+	
+	if(offsets.top > 500) {
+			
+		$("#name-menu").offset({ top: 400, left: 30 })
+		
+	}
+
+},1000);
+</script>
 <?php
 /*
 

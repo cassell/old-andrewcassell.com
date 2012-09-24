@@ -210,6 +210,13 @@ class HTMLPage
 		echo $this->getScripts();
 		echo $this->getStyleSheets();
 		
+		?>
+
+<!--[if lte IE 6]>
+	<?php echo self::formatStyleSheet("/css/ie6.css"); ?>
+<![endif]-->
+
+<?php
 		echo '</head>';
 
 		flush();
