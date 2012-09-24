@@ -201,13 +201,12 @@ class HTMLPage
 		  	 '<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />',
 			 '<meta http-equiv="Pragma" content="no-cache" />',
 		 	 '<meta http-equiv="content-script-type" content="text/javascript" />',
+			 '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
 			 '<title>' , $this->getHtmlTitle() , '</title>',
 			 '<link rel="shortcut icon" href="', self::FAVICON_PNG ,'" type="image/png" />',
 		     '<link rel="icon" href="', self::FAVICON_PNG ,'" type="image/png" />',
 			 '<link rel="apple-touch-icon" href="' . self::TOUCH_ICON_PNG . '" />';
 		
-		echo $this->getCustomMeta();
-		echo $this->getViewPortMeta();
 		echo $this->getScripts();
 		echo $this->getStyleSheets();
 		

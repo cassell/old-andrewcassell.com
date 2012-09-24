@@ -2,7 +2,7 @@
 #name-menu
 {
 	margin-top: 400px;
-	margin-left: 75px;
+	margin-left: 30px;
 	font-family: 'Josefin Sans', 'Helvetica', 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
 }
 
@@ -34,12 +34,12 @@
 	{
 		display: block;
 		margin-bottom: 20px;
-		
 	}
 	
 	#mobile-me img
 	{
 		border: 1px solid #222;
+		width: 150px;
 	}
 	
 	#name-menu
