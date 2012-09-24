@@ -24,7 +24,12 @@ class AndrewCassellPage extends HTMLPage
 		$this->insertScript('/js/jquery.js');
 		$this->insertScript('/js/bootstrap.min.js');
 		$this->insertScript('/js/jquery.backstretch.min.js');
-		$this->insertScript('/js/image-stretch.js');
+//		$this->insertScript('/js/image-stretch.js');
+		$this->insertJavaScriptBlock("
+$(document).ready(function() {
+$(\"#background\").backstretch(\"" . $this->wrapImageS3('/img/cassell-right.jpg') . "\");
+$(\"#background-mobile\").backstretch(\"" . $this->wrapImageS3('/img/ocean-coast.jpg') . "\");
+});");
 		
 		// build script causes this to run
 		if(php_sapi_name() == 'cli')
@@ -35,6 +40,7 @@ class AndrewCassellPage extends HTMLPage
 	
 	function open()
 	{
+		
 		$this->printHtmlHeader();
 		
 		echo '<div id="background"><div id="stripe">&nbsp;</div></div>';
