@@ -27,9 +27,6 @@ class AndrewCassellPage extends HTMLPage
 		$this->insertJavaScriptBlock("
 $(document).ready(function() {
 $(\"#background\").backstretch(\"" . $this->wrapImageS3('/img/cassell-right.jpg') . "\");
-$.backstretch(\"" . $this->wrapImageS3('/img/ocean-coast.jpg') . "\");
-
-
 });");
 		
 		// build script causes this to run

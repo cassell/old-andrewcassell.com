@@ -16,6 +16,9 @@ body
 {
 	margin:0px;
 	padding:0px;
+	background: url("/img/ocean-coast.jpg");
+	background-size: 100%;
+	
 }
 
 #background, #background-mobile
@@ -28,6 +31,7 @@ body
 	width: 100%;
 	z-index: -1;
 }
+
 
 #stripe
 {
