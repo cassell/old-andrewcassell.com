@@ -6,7 +6,7 @@ class Properties
 	
 	const THIS_IS_PRODUCTION = false;
 	
-	const HOST = 'http://other.local/';
+	const HOST = 'http://andrewcassell.local/';
 	
 	const STATIC_HOST = '/';
 	

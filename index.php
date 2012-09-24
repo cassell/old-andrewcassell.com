@@ -9,7 +9,7 @@ $page->open();
 ?>
 <div id="name-menu-back"></div>
 <div id="name-menu">
-	<div id="mobile-me"><img src="<?php echo $page->wrapImageS3('img/cassell-square.jpg'); ?>"></div>
+	<div id="mobile-me"><img src="/img/cassell-square.jpg"></div>
 	<div id="signature"><a href="/">Andrew Cassell</a></div>
 	<div id="tagline">Web Application Developer<div>Herndon, Virginia</div></div>
 
