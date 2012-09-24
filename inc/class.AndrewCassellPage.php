@@ -18,78 +18,32 @@ class AndrewCassellPage extends HTMLPage
 		parent::__construct();
 		
 		$this->setHtmlTitle('Andrew Cassell Web Application Developer in Herndon, Virginia');
+		$this->insertStyleSheet('/css/bootstrap.min.css');
+		$this->insertStyleSheet('/css/bootstrap-responsive.min.css');
+		$this->insertStyleSheet('/css/site.css');
+		$this->insertScript('/js/jquery.js');
+		$this->insertScript('/js/bootstrap.min.js');
+		$this->insertScript('/js/jquery.backstretch.min.js');
+		$this->insertScript('/js/image-stretch.js');
 		
-		$this->insertStyleSheet('/css/main.css');
-		$this->insertPrintMediaStyleSheet('/css/print.css');
-		
+		// build script causes this to run
 		if(php_sapi_name() == 'cli')
 		{
 			$this->insertAnalytics();
 		}
 	}
 	
-// 	function getCustomMeta()
-// 	{
-// 		$meta = '';
-		
-// 		$meta .= '<link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">';
-		
-// 		return $meta;
-// 	}
-	
-	function open($selectedMenu = null)
+	function open()
 	{
 		$this->printHtmlHeader();
 		
-		echo '<div class="printOnly printHeader"><div class="printHeaderName">Andrew Cassell</div>Web Application Developer<br/>www.AndrewCassell.com<br/></div>';
-		
-		echo '<div class="width960">';
-		
-			echo '<div id="left">';
-		
-				echo '<div id="signature"><a href="/">Andrew Cassell</a></div>';
-				echo '<div id="signatureLine"></div>';
-				echo '<div id="tagline">Web Application Developer<div>Herndon, Virginia</div></div>';
-				
-				$menu = array();
-				
-				//$menu[self::MENU_ABOUT] = array("url" => "/", "alt" => "About" , "img" => "about");
-				$menu[self::MENU_BLOG] = array("url" => $this->getLinkUrl("/blog/"), "text" => "Blog" );
-				$menu[self::MENU_GITHUB] = array("url" => "http://www.github.com/cassell", "text" => "GitHub" , "img" => "github");
-				$menu[self::MENU_TWITTER] = array("url" => "http://www.twitter.com/alc277", "text" => "Twitter" , "img" => "twitter");
-				$menu[self::MENU_FACEBOOK] = array("url" => "http://www.facebook.com/andrewcassell", "text" => "Facebook" , "img" => "facebook");
-				$menu[self::MENU_SWEET_RADISH] = array("url" => "http://www.sweetradish.com", "text" => "SweetRadish" , "img" => "sweetradish");
-				
-				echo '<ul id="menu">';
-				
-				foreach($menu as $key => $item)
-				{
-					echo '<li>';
-					
-						echo '<a href="' . $item['url'] . '">';
-						
-						echo $item['text'];
-
-						
-						echo '</a>';
-						
-					echo '</li>';
-				}
-				
-				echo '</ul>';
-		
-		echo '</div>';
-		
-		echo '<div id="right">';
+		echo '<div id="background"><div id="stripe">&nbsp;</div></div>';
+		echo '<div id="background-mobile"><div id="stripe">&nbsp;</div></div>';
 		
 	}
 	
 	function close()
 	{
-		
-		echo '</div>'; // close right
-		echo '</div>'; // close width960
-		
 		$this->printHtmlFooter();
 	}
 	

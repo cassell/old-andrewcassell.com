@@ -2,11 +2,12 @@
 
 require_once(Properties::DOC.'inc/class.Markdown.php');
 
-class AndrewCassellBlogPage extends AndrewCassellPage
+class AndrewCassellBlogPage extends AndrewCassellContentPage
 {
 	function __construct($blog,$article)
 	{
 		parent::__construct();
+		$this->insertStyleSheet('/css/blog.css');
 		$this->blog = $blog;
 		$this->article = $article;
 		
@@ -39,34 +40,39 @@ class AndrewCassellBlogPage extends AndrewCassellPage
 	
 	function display()
 	{
-		$this->open(self::MENU_BLOG);
+		$this->open();
 		
-		echo '<div class="content blog">';
-			echo '<h1><a href="/blog/' . $this->article->getDestinationUrl() . '/">' .  $this->article->getTitle() . '</a></h1>';
-			echo '<div class="date">' . date('F j, Y', strtotime($this->article->getDate())) . '</div>';
-			echo '<div class="blogContent">';
-			
-			echo $this->getBlogContents();
+		echo '<div class="container">';
+		
+			echo '<div id="page-container">';
+		
+				echo '<div class="blog">';
+					echo '<h1><a href="/blog/' . $this->article->getDestinationUrl() . '/">' .  $this->article->getTitle() . '</a></h1>';
+					echo '<div class="date">' . date('F j, Y', strtotime($this->article->getDate())) . '</div>';
+					echo '<div class="blogContent">';
+
+					echo $this->getBlogContents();
+					echo '</div>';
+				echo '</div>';
+
+				$previousArticle = $this->blog->getArticleById($this->article->getId() + 1);
+				$nextArticle = $this->blog->getArticleById($this->article->getId() - 1);
+
+				echo '<div class="blogLinks clearfix">';
+				if($previousArticle != null)
+				{
+					echo '<a id="previous" href="/blog/' . $previousArticle->getDestinationUrl() . '">&lt; Previous Blog Entry: <span>' . $previousArticle->getTitle() . '</span></a>';
+				}
+				if($nextArticle != null)
+				{	
+					echo '<a id="next" href="/blog/' . $nextArticle->getDestinationUrl() . '">Next Blog Entry: <span>' . $nextArticle->getTitle() . '</span> &gt;</a>';
+				}
+				echo '</div>';
+				echo '<div class="clearfix">&nbsp;</div>';
+				echo '<div id="blogSubscribe" class=""><a href="' . $this->blog->getAtomFeedURL() . '">{ subscribe to my blog\'s atom feed }</a></div>';
+		
 			echo '</div>';
 		echo '</div>';
-		
-		$previousArticle = $this->blog->getArticleById($this->article->getId() + 1);
-		$nextArticle = $this->blog->getArticleById($this->article->getId() - 1);
-		
-		echo '<div class="blogLinks">';
-		if($previousArticle != null)
-		{
-			echo '<a id="previous" href="/blog/' . $previousArticle->getDestinationUrl() . '">&lt; Previous Blog Entry: <span>' . $previousArticle->getTitle() . '</span></a>';
-		}
-		if($nextArticle != null)
-		{	
-			echo '<a id="next" href="/blog/' . $nextArticle->getDestinationUrl() . '">Next Blog Entry: <span>' . $nextArticle->getTitle() . '</span> &gt;</a>';
-		}
-		echo '</div>';
-		
-		echo '<div class="cb"></div>';
-		echo '<div id="blogSubscribe"><a href="' . $this->blog->getAtomFeedURL() . '">{ subscribe to my blog\'s atom feed }</a></div>';
-		
 		
 		$this->close();
 		

@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans'), local('JosefinSans'), url('/css/josefin-sans.ttf') format('truetype');
+}
+
+html
+{
+	margin:0px;
+	padding:0px;
+	overflow-y: scroll;
+}
+
+body
+{
+	margin:0px;
+	padding:0px;
+}
+
+#background, #background-mobile
+{
+	min-height: 950px;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#stripe
+{
+	background: transparent url("/img/tiled-pinstripe.png") repeat left top;
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media(max-width: 650px)
+{
+	#background
+	{
+		display: none;
+	}
+}
+@media(min-width: 650px)
+{
+	#background-mobile
+	{
+		display: none;
+	}
+}
+
+
+
+
+.navbar .navbar-inner
+{
+	padding: 0 30px;
+}
+
+.navbar-fixed-top
+{
+/*	margin-bottom: 0px;*/
+}
+
+@media(max-width: 500px)
+{
+	#background-image
+	{
+		background-image: url('/img/ocean-coast.jpg');
+	}
+}
+
+@media(min-width: 1450px)
+{
+	#background-image
+	{
+/*		background-image: url('/img/cassell-wide.jpg');*/
+	}
+}
+
+@media(max-width: 768px)
+{
+/*	.navbar .brand
+	{
+		margin-left: 35px;
+	}*/
+}
