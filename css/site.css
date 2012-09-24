@@ -50,39 +50,16 @@ body
 	}
 }
 
-
-
-
 .navbar .navbar-inner
 {
 	padding: 0 30px;
 }
 
-.navbar-fixed-top
+.major-white-content
 {
-/*	margin-bottom: 0px;*/
-}
-
-@media(max-width: 500px)
-{
-	#background-image
-	{
-		background-image: url('/img/ocean-coast.jpg');
-	}
-}
-
-@media(min-width: 1450px)
-{
-	#background-image
-	{
-/*		background-image: url('/img/cassell-wide.jpg');*/
-	}
-}
-
-@media(max-width: 768px)
-{
-/*	.navbar .brand
-	{
-		margin-left: 35px;
-	}*/
+	background: #fff;
+	margin-top: 50px;
+	padding: 30px;
+	min-height: 500px;
+	margin-bottom: 800px;
 }
