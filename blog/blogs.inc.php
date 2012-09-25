@@ -20,7 +20,7 @@ $blog->setBlogBaseURL('http://www.andrewcassell.com/blog/');
 $a = new StaticSiteBlogArticle();
 $a->setDate("06/11/2012");
 $a->setDestinationUrl("2012/sqlicious-php-orm-mysql-closure-database-processor-open-source");
-$a->setTitle("SQLicious is an Open Source PHP ORM and Closure Based Database Proccessor and Abstraction layer for MySQL");
+$a->setTitle("SQLicious is an Open Source PHP ORM and Closure Based Database Processor and Abstraction layer for MySQL");
 $a->setMarkdownSource($d."2012/sqlicious/sqlicious.md");
 $blog->addArticle($a);
 
