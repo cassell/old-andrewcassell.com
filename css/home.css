@@ -76,7 +76,7 @@
 }*/
 
 /* iPad landscape */
-@media(max-width: 1300px) and (max-height: 700px) and (min-width: 600px)
+@media(max-width: 1300px) and (min-width: 650px)
 {
 	#name-menu
 	{
