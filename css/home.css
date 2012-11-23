@@ -44,6 +44,7 @@
 	
 	#name-menu
 	{
+		margin-top: 0px;
 		position: absolute;
 		top: 40px;
 		left: 50px;
@@ -66,15 +67,6 @@
 	}
 }
 
-/* iPad portrait */
-/*@media(max-width: 600px) and (min-height: 900px)
-{
-	#name-menu
-	{
-		margin-top: 600px;
-	}
-}*/
-
 /* iPad landscape */
 @media(max-width: 1300px) and (min-width: 650px)
 {
@@ -83,7 +75,6 @@
 		margin-top: 300px;
 	}
 }
-
 
 #signature
 {
