@@ -78,7 +78,7 @@ $page->open();
 			  <div class="span2"><br/>Aug&nbsp;2001 - Dec&nbsp;2004</div>
 			  <div class="span9">
 				<h3><a href="http://www.police.psu.edu/auxpolice/">Pennsylvania State University Police Services</a></h3>
-				<h4>Supervisor, Security &amp; Traffic/h4>
+				<h4>Supervisor, Security &amp; Traffic</h4>
 			</div>
 		  </div>
 		  

@@ -38,12 +38,9 @@ $(\"#background\").backstretch(\"" . $this->wrapImageS3('/img/cassell-right.jpg'
 	
 	function open()
 	{
-		
 		$this->printHtmlHeader();
-		
 		echo '<div id="background"><div id="stripe">&nbsp;</div></div>';
 		echo '<div id="background-mobile"><div id="stripe">&nbsp;</div></div>';
-		
 	}
 	
 	function close()

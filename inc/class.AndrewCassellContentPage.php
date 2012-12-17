@@ -9,7 +9,7 @@ class AndrewCassellContentPage extends AndrewCassellPage
 	
 	function open()
 	{
-		parent::open();
+		$this->printHtmlHeader();
 		
 		?>
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -28,7 +28,6 @@ class AndrewCassellContentPage extends AndrewCassellPage
 				<li><a href="http://www.github.com/cassell">GitHub</a></li>
 				<li><a href="http://www.twitter.com/alc277">Twitter</a></li>
 				<li><a href="http://www.facebook.com/andrewcassell">Facebook</a></li>
-				<li><a href="http://www.sweetradish.com">SweetRadish</a></li>
 				</ul>
 			</div>
 			</div>

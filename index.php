@@ -18,7 +18,6 @@ $page->open();
 		<li><a href="http://www.github.com/cassell">GitHub</a></li>
 		<li><a href="http://www.twitter.com/andrewcassell">Twitter</a></li>
 		<li><a href="http://www.facebook.com/andrewcassell">Facebook</a></li>
-		<li><a href="http://www.sweetradish.com">SweetRadish</a></li>
 	</ul>
 </div>
 <script>
