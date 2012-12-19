@@ -1,6 +1,6 @@
 <?php
 
-require_once(Properties::DOC.'inc/class.StaticSiteBlog.php');
+//require_once(Properties::DOC.'inc/class.StaticSiteBlog.php');
 
 $d = Properties::DOC.'blog/entries/' ;
 
@@ -20,7 +20,7 @@ $blog->setBlogBaseURL('http://www.andrewcassell.com/blog/');
 $a = new StaticSiteBlogArticle();
 $a->setDate("06/11/2012");
 $a->setDestinationUrl("2012/sqlicious-php-orm-mysql-closure-database-processor-open-source");
-$a->setTitle("SQLicious is an Open Source PHP ORM and Closure Based Database Processor and Abstraction layer for MySQL");
+$a->setTitle("SQLicious is an Open Source PHP ORM and Closure Based Database Processor and Abstraction Layer for MySQL");
 $a->setMarkdownSource($d."2012/sqlicious/sqlicious.md");
 $blog->addArticle($a);
 
@@ -87,10 +87,5 @@ $a->setDestinationUrl("2011/hello-world");
 $a->setTitle("Hello World, Again.");
 $a->setMarkdownSource($d."2011/hello-world/hello-world.txt");
 $blog->addArticle($a);
-
-
-
-
-
 
 ?>

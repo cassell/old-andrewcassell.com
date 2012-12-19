@@ -1,6 +1,6 @@
 <?php
 
-require_once(Properties::DOC.'inc/class.Markdown.php');
+require_once('class.Markdown.php');
 
 class AndrewCassellBlogPage extends AndrewCassellContentPage
 {
